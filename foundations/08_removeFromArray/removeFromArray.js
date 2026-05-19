@@ -1,9 +1,6 @@
-// A function takes an array and some more arguments and returns an array
+// This function removes the specified arguments from the specified array
 const removeFromArray = function(arr, ...excArgs) {
-  // A new array is equal to a filtered given array
-  let cleanArr = arr.filter((item) => !excArgs.includes(item));
-  // Return the new array
-  return cleanArr;
+  return arr.filter((item) => !excArgs.includes(item));
 };
 
 // Do not edit below this line
