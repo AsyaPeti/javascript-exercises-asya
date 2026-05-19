@@ -1,4 +1,4 @@
-// A function which checks whether a given year is a leap year
+// This function determines if a given year is a leap year
 const leapYears = function(year) {
   // Checks for century years
   if (year % 100 === 0) {
