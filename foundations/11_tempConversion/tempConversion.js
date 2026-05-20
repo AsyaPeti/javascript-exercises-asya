@@ -1,6 +1,6 @@
 // This function converts temperatures from Fahrenheit to Celsius
 const convertToCelsius = function(fahrDegrees) {
-  return Math.round(5 / 9 * (fahrDegrees - 32) * 10) / 10;
+  return Math.round((5 / 9 * (fahrDegrees - 32)) * 10) / 10;
 };
 
 // This function converts temperatures from Celsius to Fahrenheit
