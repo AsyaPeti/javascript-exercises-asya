@@ -1,12 +1,10 @@
-// A function converts given Fahrenheit degrees to Celsius degrees
+// This function converts temperatures from Fahrenheit to Celsius
 const convertToCelsius = function(fahrDegrees) {
-  // Return Celsius degrees rounded to one decimal place
   return Math.round(5 / 9 * (fahrDegrees - 32) * 10) / 10;
 };
 
-// A function converts given Celsius degrees to Fahrenheit degrees
+// This function converts temperatures from Celsius to Fahrenheit
 const convertToFahrenheit = function(celsDegrees) {
-  // Return Fahrenheit degrees rounded to one decimal place
   return Math.round((9 / 5 * celsDegrees + 32) * 10) / 10;
 };
 
