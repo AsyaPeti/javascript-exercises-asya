@@ -18,8 +18,10 @@ const multiply = function(numArr) {
   return numArr.reduce((multi, num) => multi * num, 1);
 };
 
-const power = function() {
-	
+// This function raises the first number to the power of the second number
+const power = function(base, exp) {
+  // Return the result of exponentiation
+  return base ** exp;
 };
 
 const factorial = function() {
