@@ -25,12 +25,8 @@ const power = function(base, exp) {
 
 // This function calculates the factorial of a given number
 const factorial = function(num) {
-  // The result is 1
   let result = 1;
-  // Loop from 1 to num, including num
-    // Multiply the result by an iterator
   for (let i = 1; i <= num; i++) result *= i;
-  // Return the result
   return result;
 };
 
