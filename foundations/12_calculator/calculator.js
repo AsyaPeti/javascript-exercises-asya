@@ -15,7 +15,6 @@ const sum = function(numArr) {
 
 // This function multiplies all the numbers in the given array together
 const multiply = function(numArr) {
-  // Multiply all the numbers together and return the result
   return numArr.reduce((multi, num) => multi * num, 1);
 };
 
