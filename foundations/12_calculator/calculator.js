@@ -13,8 +13,10 @@ const sum = function(numArr) {
   return numArr.reduce((sum, num) => sum + num, 0);
 };
 
-const multiply = function() {
-
+// This function multiplies all the numbers in the given array together
+const multiply = function(numArr) {
+  // Multiply all the numbers together and return the result
+  return numArr.reduce((multi, num) => multi * num, 1);
 };
 
 const power = function() {
