@@ -10,7 +10,6 @@ const subtract = function(num1, num2) {
 
 // This function sums all the numbers in the given array
 const sum = function(numArr) {
-  // Return the sum of the numbers or 0
   return numArr.reduce((sum, num) => sum + num, 0);
 };
 
