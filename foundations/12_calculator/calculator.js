@@ -20,7 +20,6 @@ const multiply = function(numArr) {
 
 // This function raises the first number to the power of the second number
 const power = function(base, exp) {
-  // Return the result of exponentiation
   return base ** exp;
 };
 
