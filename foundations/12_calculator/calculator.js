@@ -1,11 +1,10 @@
 // This function adds two numbers together
 const add = function(num1, num2) {
-	return num1 + num2;
+  return num1 + num2;
 };
 
 // This function subtracts the second number from the first
 const subtract = function(num1, num2) {
-	// Return the result of the subtraction
   return num1 - num2;
 };
 
