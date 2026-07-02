@@ -1,8 +1,8 @@
 // This function identifies the oldest person in an array of people
 const findTheOldest = function(people) {
   let result = people.reduce((oldest, person) => {
-    if (!oldest.yearOfDeath) oldest.yearOfDeath = new Date().getFullYear();
-    if (!person.yearOfDeath) person.yearOfDeath = new Date().getFullYear();
+    oldest.yearOfDeath ??= new Date().getFullYear();
+    person.yearOfDeath ??= new Date().getFullYear();
     
     if ((person.yearOfDeath - person.yearOfBirth) > 
         (oldest.yearOfDeath - oldest.yearOfBirth)) {
